@@ -1,6 +1,5 @@
 git init : This initilises a Git repository in teh current directory
 git add <file> : Adds any changes inside the <file> to the staging area
-git status : shows status of staging area
 git commit -m '<message>' - Commits the staging area to the repository with a <message>
 git status - checks the current staus of the repository
 git log - Reviews the previous commits
@@ -11,6 +10,20 @@ git pull origin master
 git diff - what is different from our last commit
 git branch - use git branch to see the branchs
 git branch -d <branch name> - deletes <branch name>
+git checkout :updates files in workin gtree to match the version in teh index or the specifed tree.
 Notes on the required course
-1. Create a fork of the repository : the fork is a copy of a repository that you manage use the command:
-2. Clone the fork to your computer: This makes a copy of the forked repository on my local machine using the command
+1. Create a fork of the repository : the fork is a copy of a repository that you manage.You can fetch updates or submit changes to the original repository using a pull request. This is done on the Github webpage, and will take the repo stored at
+https://github.com/codefellows/unix-and-git-workshop.git
+and create a fork called
+https://github.com/henryrebbeck/unix-and-git-workshop.git
+2. Clone the fork to your computer: This makes a copy of the forked repository (or repo) on my local machine,. Use the command git clone https:/github.com/USERNAME/REPOSITORY : in this case USERNAME = henryrebbeck and REPOSITORY = unix-and-git-workshop
+3. Create a new branch called notes : Use the commmand git branch notes to create the new branch. (note at any time use git branch to show what branch we are on)
+4. Checkout the branch notes : this switches the branch so we are working on the new branch we created called notes.
+5. Create a directory using mkdir henryrebbeck : this makes a new directory in the working branch (notes)
+6. Create a unix_notes.txt file using subl unix_notes.txt
+7. Edit this file using the Sublime Text 2 text editor
+8. create a git_notes.txt file using subl git_notes.txt
+9. Edit in Sublinme Text 2
+10. Add the untracked files to the staging area using the git add commmand : e.g git add unix_notes.txt or git add *.txt
+11. Commit the changes using git commit -m :This records changes to the updated files in the notes branch to the repo eg. Git commit -m "Updated unix & git workshop notes by Henry"
+12. Push the branch to the origin remote on GitHub: use git push origin master or is it git push origin notes
