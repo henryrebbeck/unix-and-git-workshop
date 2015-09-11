@@ -1,0 +1,7 @@
+cd <path> Changes the working directory to <path>
+ls <path> Lists the directory content of <path>
+ls -l lists your file in long format
+mkdir dirname make a new directory
+pwd tells you where you currently are (present working directory?)
+rm filename - removes a file
+rmdir removes a directory

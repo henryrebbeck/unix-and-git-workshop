@@ -1,0 +1,16 @@
+git init : This initilises a Git repository in teh current directory
+git add <file> : Adds any changes inside the <file> to the staging area
+git status : shows status of staging area
+git commit -m '<message>' - Commits the staging area to the repository with a <message>
+git status - checks the current staus of the repository
+git log - Reviews the previous commits
+git remote add origin https://github.com/try-git/try_git.git - create a remote repository on the GitHub server
+git push - The push command tells Git where to put our commits when were ready. (used to push your local branch to a remote repository)
+git push -u origin master - this is how you usually push local changes to your online repository
+git pull origin master
+git diff - what is different from our last commit
+git branch - use git branch to see the branchs
+git branch -d <branch name> - deletes <branch name>
+Notes on the required course
+1. Create a fork of the repository : the fork is a copy of a repository that you manage use the command:
+2. Clone the fork to your computer: This makes a copy of the forked repository on my local machine using the command
