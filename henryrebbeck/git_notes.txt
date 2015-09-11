@@ -26,4 +26,5 @@ https://github.com/henryrebbeck/unix-and-git-workshop.git
 9. Edit in Sublinme Text 2
 10. Add the untracked files to the staging area using the git add commmand : e.g git add unix_notes.txt or git add *.txt
 11. Commit the changes using git commit -m :This records changes to the updated files in the notes branch to the repo eg. Git commit -m "Updated unix & git workshop notes by Henry"
-12. Push the branch to the origin remote on GitHub: use git push origin master or is it git push origin notes
+12. Push the branch to the origin remote on GitHub: use git push origin notes? to move the changes in the branch (notes) to the  GitHub branch origin
+13. Send a pull request from this branch to Code Fellows' master branch. The easist way to do this is on the Github website, navigate to your repository with the changes you want someone else to pull and press the pull request button.
